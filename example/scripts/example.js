@@ -64,6 +64,13 @@ angular.module('exampleApp', [
         {
             $scope.submitPromise = fakeFac.success();
         };
+        $scope.ngClickOnly = function ()
+        {
+            console.log('I am here! NGCLICKONLY');
+
+            return fakeFac.success();
+        };
+
 
         $scope.auto();
     });

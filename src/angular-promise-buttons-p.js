@@ -10,7 +10,8 @@ angular.module('angularPromiseButtons')
         var config = {
             spinnerTpl: '<span class="btn-spinner"></span>',
             disableBtn: true,
-            btnLoadingClass: 'is-loading'
+            btnLoadingClass: 'is-loading',
+            eventPrefix: 'ANGULAR_PROMISE_BUTTONS_'
         };
 
 
