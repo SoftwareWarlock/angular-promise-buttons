@@ -41,7 +41,7 @@ Now you just have to assign a promise to ```yourPromise```:
 // inside some controller
 $scope.success = function ()
 {
-  $scope.successPromise = fakeFactory.method().then(...);
+  $scope.yourPromise = fakeFactory.method().then(...);
 };
 ```
 
